@@ -105,7 +105,7 @@ public privileged aspect TraceAspect
 		}
 		else if(oldChocolate > MAX_UNIT)
 		{
-			System.out.println("Sugar was reset to 30! ");
+			System.out.println("Chocolate was reset to 30! ");
 			Inventory.chocolate = MAX_UNIT;					
 		}
 	}
